@@ -11,5 +11,21 @@
             <a href="contact.html" target="_blank">Contact</a>
         </nav>
         <h1>Contact</h1>
+        <form onsubmit="return getMessage()" method="post">
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <script>           
+            function getMessage(){
+                var message = document.getElementById("message").nodeValue;
+                var email = document.getElementById("email").nodeValue;
+
+                console.log(message);
+                console.log(email)
+            }
+        </script>
     </body>
 </html>
