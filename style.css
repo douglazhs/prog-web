@@ -1,5 +1,32 @@
 
 .body{
     text-align: center;
-    background-color: #f1f;
+    background-color: #ffffff;
+}
+
+.navbar{
+    background-color: #FFA07A;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.languagesList{
+    text-align: left;
+    font-size: 18px;
+}
+
+.projectsNavbar{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.tableHeader{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

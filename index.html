@@ -7,50 +7,84 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+
+        <style>
+            h1 { color: #ff2f; border: 2px solid #000000;}
+            h2 { color: #ffffff; border: 2px solid #000000}
+        </style>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
     </head>
-    <body class="body">
+    <body class = "body">
         <header>
-            <nav>
-                <a href="index.html">Home</a> |
-                <a href="bio.html" target="_blank">About Me</a> |
-                <a href="https://github.com/douglazhs" target="_blank">GitHub</a> |
-                <a href="contact.html" target="_blank">Contact</a>
-            </nav>
+            <div class = navbar>
+                <nav>
+                    <a href="index.html">Home</a> |
+                    <a href="bio.html" target="_blank">About Me</a> |
+                    <a href="https://github.com/douglazhs" target="_blank">GitHub</a> |
+                    <a href="contact.html" target="_blank">Contact</a>
+                </nav>
+                <br>
+            </div>
+         
         </header>
-        <h2>Languages</h2>
-        <ul>
+
+        <div style = "background-color: #f15;">
+            <h2>Languages</h2>
+        </div>
+
+        <div class = "languagesList">
+            <nav>
+                <img src="./images/swift.png" height="50" width="50" alt="Siwft Language"/>
+                <img src="./images/c.png" height="50" width="50" alt="Siwft Language"/>
+                <img src="./images/java.png" height="50" width="50" alt="Siwft Language"/>
+                <img src="./images/html.png" height="50" width="50" alt="Siwft Language"/>
+            </nav>
+            <ul>
             <li>Swift</li>
             <li>C</li>
             <li>Java</li>
             <li>Html</li>
         </ul>
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <a href="https://github.com/douglazhs/Game-Watch" target="_blank">Game Watch</a>
-            </li>
-            <li>
-                <a href="https://github.com/douglazhs/JogoDaForcaTF" target="_blank">Hangman Game</a>
-            </li>
-            <li>
-                <a href="https://github.com/douglazhs/Game-Event" target="_blank">Game Event</a>
-            </li>   
-        </ul>
+        </div>
+        
+        <h2 style="background-color: #000000" >Projects</h2>
+        <div class= "projectsNavbar">
+            <nav>  
+                <a href="https://github.com/douglazhs/Game-Watch" target="_blank" style="background-color: #E6E6FA">GAME WATCH</a>
+                <a href="https://github.com/douglazhs/JogoDaForcaTF" target="_blank" style="background-color: #E6E6FA">HANGAMN GAME</a>
+                <a href="https://github.com/douglazhs/Game-Event" target="_blank" style="background-color: #E6E6FA">GAME EVENT</a>
+            </nav>
+        </div>
+       
         <iframe width="420" height="345" src="https://www.youtube.com/embed/1TVyN85hhtM"></iframe>
+        
         <br>
+        
         <hr>
-        <table>
-            <tr>
-                <th>Nome</th>
+
+        <table border="1">
+            <tr class="tableHeader">
+                <td>Nome</td>
+                <td>Idade</td>
+                <td>Profissão</td>
             </tr>
             <tr>
-                <th>Idade</th>
+                <td>Douglas</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Vinicios</td>
+                <td>20</td>
+                <td style="color: #DC143C">Canalha</td>
             </tr>
         </table>
         <hr>
     </body>
     <footer>
-        <h2 id="Foot">Thank you!</h2>
+        <h2 id="Foot" style="background-color: #ffa500;">Thank you!</h2>
     </footer>
 </html>
 <!DOCTYPE html>
